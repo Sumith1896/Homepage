@@ -1,0 +1,93 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  transition:background 2s linear;
+}
+.nav a:hover{
+        background-color:#289dfd;
+        text-decoration: none;
+            color: #778899}
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://gdgmumbai.org/images/solveforx-banner.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbotron .container {
+  }
+
+.jumbotron h1 {
+  color: #289dfd;
+  font-size: 48px;  
+  
+ font-family:'Scribble Box';
+}
+
+.jumbotron p {
+  font-family:'Scribble Box';
+  src:"Backup/fonts/scribble.ttf" format('ttf');
+  font-size: 20px;
+  color: #fff;
+}
+.login {
+  background-color: #f7f7f7;
+}
+
+.login h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login a {
+  color: #00b0ff;
+}
+.favClubs{
+    background-color : #efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+.favClubs h2{
+    color:#393c3d;
+    font-size:24px;
+}
+.favClubs p{
+    font-size:15px;
+    margin-bottom:13px;
+}
+.jumbo {
+  background-color:#151515;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbo .container {
+  position: relative;
+  top:30px;
+}
+
+.jumbo h1 {
+  color: #289dfd;
+  font-size: 48px;  
+  
+  font-family:'Scribble Box';
+}
+
+.jumbo p {
+  font-size: 20px;
+  color: #fff;
+}
+.jumbo .container .data{
+
+  font-family:'Helvetica';
+}

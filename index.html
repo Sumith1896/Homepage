@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="title icon" href="title.ico" >
+    <title>Sumith</title>
+    <link href="shift.css" rel="stylesheet">          
+    <link rel="stylesheet" href="bootstrap.css">     
+    <link rel="stylesheet" href="main.css">           
+  </head>
+
+  <body>
+    <div class="nav">                                  
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">                             
+      <div class="container">                            
+        <h1>SUMITH</h1>
+        <p>Hi,I am Sumith,Freshie at IITB CSE Department.</p>
+      </div>
+
+
+
+    </div> 
+                                                                     
+    <div class="favClubs">
+        <div class="container">
+        <h2 style="text-align:center;">Life@IITB</h2>          
+        <p style="text-align:center;">Best things that I encountered at IITB</p>
+        <div class="row">                                        
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href='http://www.techfest.org/'><img src="http://www.techfest.org/techfest-thumb.jpg" ></a>
+              </div>
+              <div class="thumbnail">
+                <a href='https://moodi.org/'>       <img src="moodi.jpg" ></a>
+              </div>
+            </div>
+            <div class="col-md-4">  
+              <div class="thumbnail">
+                <a style="position:relative;" href='http://stab-iitb.org/web-and-coding-club'><img src= "wncc.png" style="height:174px;width:400px" ></a>
+              </div>
+              <div class="thumbnail">
+                <a href='http://stab-iitb.org/electronics-club' ><img style="height:155px;width:400px" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10480193_871357196225003_83461083847652336_n.png?oh=0dc8f87b54c559446ce4516bd79bb042&oe=54BCBE28&__gda__=1422538922_d87834c6d8dcf9e13db725af8510a2db"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+             <div class="thumbnail" style="background-color:#efefef;">
+                <a href='http://www.iitb.ac.in/'><img  src="http://www.iitb.ac.in/alumni/sites/www.iitb.ac.in.alumni/themes/touchm/logo.png" ></a>
+              </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="login">                                       
+    <div class="container">
+<br><br>
+    <div class="row">
+        <div class="col-md-4" style="background-image:url('Grey.jpg');">
+          <p style="float:right;margin-right:50px;margin-top:10px;"><img src="https://www.softaculous.com/images/softimages/58__logo.gif"></p>
+          <h3>GPO Login</h3>
+          <p>This is the IITB Webmail</p>
+                    
+              <form action="https://gpo.iitb.ac.in/src/redirect.php" target="_blank"method="post" name="login_form"  >
+                  <div class="loginform">
+                  <div class="form-label"><label for="username">Username</label></div>
+                  <div class="form-input">
+                  <input type="text" name="login_username" value="" onfocus="alreadyFocused=true;" />
+                  </div>
+                  <div class="clearer"><!-- --></div>
+                  <div class="form-label"><label for="password">Password</label></div>
+                  <div class="form-input">
+                  <input type="password" name="secretkey" onfocus="alreadyFocused=true;" />
+                  <input type="hidden" name="js_autodetect_results" value="0" />
+                  <input type="hidden" name="just_logged_in" value="1" />
+                  <input type="submit" value="Login" />
+                  <p></p>
+                  </div>
+                  </div>
+              </form>
+        </div>
+        <div class="col-md-4" style="background-color:#f58515;">
+          <p style="float:right;margin-right:50px;margin-top:10px;"><img height="96" width="152" src="moodle.jpg"></p>
+          <h3>Moodle Login</h3>
+          <p>All the academic stuff</p>
+                       
+              <form action="http://moodle.iitb.ac.in/login/index.php" target="_blank" method="post" id="login"  >
+                 <div class="loginform">
+                <div class="form-label"><label for="username">Username</label></div>
+                <div class="form-input">
+                <input type="text" name="username" id="username" size="15" value="" />
+                </div>
+                <div class="clearer"><!-- --></div>
+                <div class="form-label"><label for="password">Password</label></div>
+                <div class="form-input">
+                <input type="password" name="password" id="password" size="15" value=""  />
+                <input type="submit" id="loginbtn" value="Login" />
+                <p></p>
+                </div>
+                </div>
+              </form>
+        </div>
+        <div class="col-md-4" style="background-color:#3b5998;color:#FFFFFF;">
+          <p style="float:right;margin-right:50px;margin-top:10px;"><img src="https://www.teenytinywebsites.com/s/facebook_f_icon_50.png"></p>
+          <h3>Facebook Login</h3>
+          <p>Best way to pass time.</p>
+               
+                <form id="login_form" action="https://www.facebook.com/login.php?login_attempt=1" target="_blank" method="post" onsubmit="return window.Event &amp;&amp; Event.     __inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
+                    <input type="hidden" name="lsd" value="AVqQuWOk" autocomplete="off">
+                    <div class="loginform">
+                    <div class="form-label"><label for="username">Username/Email/Phone</label></div>
+                    <div class="form-input">
+                    <input style="color:#000000;"type="text" class="inputtext" name="email" id="email" value="" tabindex="1">
+                    </div>
+                    <div class="clearer"><!-- --></div>
+                    <div class="form-label"><label for="password">Password</label></div>
+                    <div class="form-input">
+                    <input style="color:#000000;" type="password" class="inputtext" name="pass" id="pass" tabindex="2">
+                    <input style="color:#3b5998; font-weight:bold;"value="Login" tabindex="4" type="submit" id="u_0_l">
+                    <p></p>
+                   </div>
+                   </div>
+               </form>     
+        </div>
+       
+          <style>
+
+               <!-- p .hid{
+             opacity:0; /* Completely invisible. */
+             transition:1s; /* A 1 second transition. */
+               }
+            p:hover .hid{
+            opacity:1; /* Completely visible. */
+             } -->
+           </style>
+
+         <p style="font-size: 25px;text-decoration: none;float:left;font-family: 'Shift';font-style: normal;">
+               <span><img src="qm.png" height="50" width="60")</span>
+               <span class="hid">Get logged in to all your favourite sites at one place.</span>
+         </p>
+              
+              
+              
+      </div>
+       <footer style="float:right; margin-top:0px;">
+        <p style="font-family: 'Shift', sans-serif; font-size: 10px;line-height:3px;">Developed at IIT-Bombay</p>  
+        <p style="font-family: 'Shift', sans-serif; font-size: 10px;line-height:2px;">&copy;Sumith</p>
+     </footer>
+      </div>
+
+      </div>
+  </body>
+</html>
